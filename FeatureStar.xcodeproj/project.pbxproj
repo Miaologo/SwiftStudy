@@ -14,6 +14,7 @@
 		2235B9231FFE1A210035A4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235B9211FFE1A210035A4BD /* LaunchScreen.storyboard */; };
 		2235B92E1FFE1A210035A4BD /* FeatureStarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235B92D1FFE1A210035A4BD /* FeatureStarTests.swift */; };
 		2235B9391FFE1A210035A4BD /* FeatureStarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235B9381FFE1A210035A4BD /* FeatureStarUITests.swift */; };
+		2235B9471FFE1B700035A4BD /* ReactiveX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235B9461FFE1B700035A4BD /* ReactiveX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2235B9341FFE1A210035A4BD /* FeatureStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2235B9381FFE1A210035A4BD /* FeatureStarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureStarUITests.swift; sourceTree = "<group>"; };
 		2235B93A1FFE1A210035A4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2235B9461FFE1B700035A4BD /* ReactiveX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2235B9181FFE1A210035A4BD /* AppDelegate.swift */,
 				2235B91A1FFE1A210035A4BD /* ViewController.swift */,
+				2235B9461FFE1B700035A4BD /* ReactiveX.swift */,
 				2235B91C1FFE1A210035A4BD /* Main.storyboard */,
 				2235B91F1FFE1A210035A4BD /* Assets.xcassets */,
 				2235B9211FFE1A210035A4BD /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2235B9471FFE1B700035A4BD /* ReactiveX.swift in Sources */,
 				2235B91B1FFE1A210035A4BD /* ViewController.swift in Sources */,
 				2235B9191FFE1A210035A4BD /* AppDelegate.swift in Sources */,
 			);
